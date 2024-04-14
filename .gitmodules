@@ -16,3 +16,6 @@
 [submodule "submodules/v3-core"]
 	path = submodules/v3-core
 	url = https://github.com/Uniswap/v3-core
+[submodule "submodules/v3-periphery"]
+	path = submodules/v3-periphery
+	url = https://github.com/Uniswap/v3-periphery
