@@ -67,7 +67,6 @@
     "danger": "11.2.6",
     "depcheck": "1.4.7",
     "dotenv-cli": "^7.0.0",
-    "husky": "^8.0.3",
     "i18next": "23.10.0",
     "i18next-parser": "8.6.0",
     "syncpack": "^8.5.14",

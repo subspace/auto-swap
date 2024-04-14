@@ -13,6 +13,10 @@
       "path": "../apps/mobile"
     },
     {
+      "name": "packages/",
+      "path": "../packages/"
+    },
+    {
       "name": "packages/ui",
       "path": "../packages/ui"
     },
@@ -29,35 +33,39 @@
       "path": "../packages/wallet"
     },
     {
-      "name": "submodules/sdk-core",
+      "name": "submodules/",
+      "path": "../submodules/"
+    },
+    {
+      "name": "sdk-core",
       "path": "../submodules/sdk-core"
     },
     {
-      "name": "submodules/smart-order-router",
+      "name": "smart-order-router",
       "path": "../submodules/smart-order-router"
     },
     {
-      "name": "submodules/v2-core",
+      "name": "v2-core",
       "path": "../submodules/v2-core"
     },
     {
-      "name": "submodules/v2-periphery",
+      "name": "v2-periphery",
       "path": "../submodules/v2-periphery"
     },
     {
-      "name": "submodules/v2-subgraph",
+      "name": "v2-subgraph",
       "path": "../submodules/v2-subgraph"
     },
     {
-      "name": "submodules/v3-core",
+      "name": "v3-core",
       "path": "../submodules/v3-core"
     },
     {
-      "name": "submodules/v3-periphery",
+      "name": "v3-periphery",
       "path": "../submodules/v3-periphery"
     },
     {
-      "name": "submodules/v3-subgraph",
+      "name": "v3-subgraph",
       "path": "../submodules/v3-subgraph"
     }
   ],
