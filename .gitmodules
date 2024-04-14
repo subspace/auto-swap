@@ -1,0 +1,6 @@
+[submodule "submodules/sdk-core"]
+	path = submodules/sdk-core
+	url = https://github.com/Uniswap/sdk-core
+[submodule "submodules/smart-order-router"]
+	path = submodules/smart-order-router
+	url = https://github.com/Uniswap/smart-order-router
