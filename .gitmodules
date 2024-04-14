@@ -10,3 +10,9 @@
 [submodule "submodules/v2-periphery"]
 	path = submodules/v2-periphery
 	url = https://github.com/Uniswap/v2-periphery
+[submodule "submodules/v2-subgraph"]
+	path = submodules/v2-subgraph
+	url = https://github.com/Uniswap/v2-subgraph
+[submodule "submodules/v3-core"]
+	path = submodules/v3-core
+	url = https://github.com/Uniswap/v3-core
