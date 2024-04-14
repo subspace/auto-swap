@@ -17,19 +17,19 @@
       "path": "../packages/"
     },
     {
-      "name": "packages/ui",
+      "name": "ui",
       "path": "../packages/ui"
     },
     {
-      "name": "packages/uniswap",
+      "name": "uniswap",
       "path": "../packages/uniswap"
     },
     {
-      "name": "packages/utilities",
+      "name": "utilities",
       "path": "../packages/utilities"
     },
     {
-      "name": "packages/wallet",
+      "name": "wallet",
       "path": "../packages/wallet"
     },
     {
