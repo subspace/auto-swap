@@ -4,3 +4,6 @@
 [submodule "submodules/smart-order-router"]
 	path = submodules/smart-order-router
 	url = https://github.com/Uniswap/smart-order-router
+[submodule "submodules/v2-core"]
+	path = submodules/v2-core
+	url = https://github.com/Uniswap/v2-core
