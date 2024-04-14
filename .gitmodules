@@ -1,6 +1,6 @@
-[submodule "submodules/smart-order-router"]
-	path = submodules/smart-order-router
-	url = https://github.com/Uniswap/smart-order-router
+[submodule "submodules/sdk-core"]
+	path = submodules/sdk-core
+	url = https://github.com/subspace/uniswap-sdk-core.git
 [submodule "submodules/v2-core"]
 	path = submodules/v2-core
 	url = https://github.com/Uniswap/v2-core
@@ -19,6 +19,3 @@
 [submodule "submodules/v3-subgraph"]
 	path = submodules/v3-subgraph
 	url = https://github.com/Uniswap/v3-subgraph
-[submodule "submodules/sdk-core"]
-	path = submodules/sdk-core
-	url = https://github.com/subspace/uniswap-sdk-core.git
