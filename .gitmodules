@@ -7,3 +7,6 @@
 [submodule "submodules/v2-core"]
 	path = submodules/v2-core
 	url = https://github.com/Uniswap/v2-core
+[submodule "submodules/v2-periphery"]
+	path = submodules/v2-periphery
+	url = https://github.com/Uniswap/v2-periphery
