@@ -27,6 +27,38 @@
     {
       "name": "packages/wallet",
       "path": "../packages/wallet"
+    },
+    {
+      "name": "submodules/sdk-core",
+      "path": "../submodules/sdk-core"
+    },
+    {
+      "name": "submodules/smart-order-router",
+      "path": "../submodules/smart-order-router"
+    },
+    {
+      "name": "submodules/v2-core",
+      "path": "../submodules/v2-core"
+    },
+    {
+      "name": "submodules/v2-periphery",
+      "path": "../submodules/v2-periphery"
+    },
+    {
+      "name": "submodules/v2-subgraph",
+      "path": "../submodules/v2-subgraph"
+    },
+    {
+      "name": "submodules/v3-core",
+      "path": "../submodules/v3-core"
+    },
+    {
+      "name": "submodules/v3-periphery",
+      "path": "../submodules/v3-periphery"
+    },
+    {
+      "name": "submodules/v3-subgraph",
+      "path": "../submodules/v3-subgraph"
     }
   ],
   "settings": {
