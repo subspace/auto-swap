@@ -14,6 +14,7 @@ import { ReactComponent as bnb } from './ChainSymbols/bnb.svg'
 import { ReactComponent as celo } from './ChainSymbols/celo.svg'
 import { ReactComponent as celoLight } from './ChainSymbols/celo_light.svg'
 import { ReactComponent as ethereum } from './ChainSymbols/ethereum.svg'
+import { ReactComponent as nova } from './ChainSymbols/nova.svg'
 import { ReactComponent as optimism } from './ChainSymbols/optimism.svg'
 import { ReactComponent as polygon } from './ChainSymbols/polygon.svg'
 
@@ -28,6 +29,12 @@ export function getChainUI(chainId: ChainId, darkMode: boolean): ChainUI | undef
     case ChainId.SEPOLIA:
       return {
         Symbol: ethereum,
+        bgColor: '#6B8AFF33',
+        textColor: '#6B8AFF',
+      }
+    case ChainId.NOVA:
+      return {
+        Symbol: nova,
         bgColor: '#6B8AFF33',
         textColor: '#6B8AFF',
       }
