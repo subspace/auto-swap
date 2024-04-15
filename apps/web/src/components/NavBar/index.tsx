@@ -2,7 +2,6 @@ import { useWeb3React } from '@web3-react/core'
 import { UniIcon } from 'components/Logo/UniIcon'
 import Web3Status from 'components/Web3Status'
 import { chainIdToBackendName } from 'graphql/data/util'
-import { useDisableNFTRoutes } from 'hooks/useDisableNFTRoutes'
 import { useIsLandingPage } from 'hooks/useIsLandingPage'
 import { useIsNftPage } from 'hooks/useIsNftPage'
 import { useIsPoolsPage } from 'hooks/useIsPoolsPage'
@@ -23,7 +22,6 @@ import { useIsNavSearchInputVisible } from '../../nft/hooks/useIsNavSearchInputV
 import { Bag } from './Bag'
 import Blur from './Blur'
 import { ChainSelector } from './ChainSelector'
-import { More } from './More'
 import { SearchBar } from './SearchBar'
 import * as styles from './style.css'
 
@@ -62,9 +60,6 @@ export const PageTabs = () => {
   const chainName = chainIdToBackendName(connectedChainId)
 
   const isPoolActive = useIsPoolsPage()
-  const isNftPage = useIsNftPage()
-
-  const shouldDisableNFTRoutes = useDisableNFTRoutes()
 
   return (
     <>
@@ -77,17 +72,11 @@ export const PageTabs = () => {
       >
         <Trans>Explore</Trans>
       </MenuItem>
-      {!shouldDisableNFTRoutes && (
-        <MenuItem dataTestId="nft-nav" href="/nfts" isActive={isNftPage}>
-          <Trans>NFTs</Trans>
-        </MenuItem>
-      )}
       <Box display={{ sm: 'flex', lg: 'none', xxl: 'flex' }} width="full">
         <MenuItem href="/pool" dataTestId="pool-nav-link" isActive={isPoolActive}>
           <Trans>Pool</Trans>
         </MenuItem>
       </Box>
-      <More />
     </>
   )
 }
