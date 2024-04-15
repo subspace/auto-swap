@@ -16,6 +16,7 @@ function getAppProvider(chainId: SupportedInterfaceChain) {
 /** These are the only JsonRpcProviders used directly by the interface. */
 export const RPC_PROVIDERS = {
   [ChainId.MAINNET]: getAppProvider(ChainId.MAINNET),
+  [ChainId.NOVA]: getAppProvider(ChainId.NOVA),
   [ChainId.GOERLI]: getAppProvider(ChainId.GOERLI),
   [ChainId.SEPOLIA]: getAppProvider(ChainId.SEPOLIA),
   [ChainId.OPTIMISM]: getAppProvider(ChainId.OPTIMISM),

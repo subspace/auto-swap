@@ -1,0 +1,86 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": ".."
+    },
+    {
+      "name": "web",
+      "path": "../apps/web"
+    },
+    {
+      "name": "mobile",
+      "path": "../apps/mobile"
+    },
+    {
+      "name": "packages/",
+      "path": "../packages/"
+    },
+    {
+      "name": "ui",
+      "path": "../packages/ui"
+    },
+    {
+      "name": "uniswap",
+      "path": "../packages/uniswap"
+    },
+    {
+      "name": "utilities",
+      "path": "../packages/utilities"
+    },
+    {
+      "name": "wallet",
+      "path": "../packages/wallet"
+    },
+    {
+      "name": "submodules/",
+      "path": "../submodules/"
+    },
+    {
+      "name": "sdk-core",
+      "path": "../submodules/sdk-core"
+    },
+    {
+      "name": "smart-order-router",
+      "path": "../submodules/smart-order-router"
+    },
+    {
+      "name": "v2-core",
+      "path": "../submodules/v2-core"
+    },
+    {
+      "name": "v2-periphery",
+      "path": "../submodules/v2-periphery"
+    },
+    {
+      "name": "v2-subgraph",
+      "path": "../submodules/v2-subgraph"
+    },
+    {
+      "name": "v3-core",
+      "path": "../submodules/v3-core"
+    },
+    {
+      "name": "v3-periphery",
+      "path": "../submodules/v3-periphery"
+    },
+    {
+      "name": "v3-subgraph",
+      "path": "../submodules/v3-subgraph"
+    }
+  ],
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.sortImports": "always",
+      "source.fixAll.eslint": "always",
+      "source.fixAll.tslint": "always"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.workingDirectories": [{ "mode": "auto" }],
+    "javascript.format.enable": false,
+    "editor.tabSize": 2,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "cSpell.words": ["subspace"]
+  }
+}

@@ -2,6 +2,7 @@ import { ChainId, SUPPORTED_CHAINS, SupportedChainsType, V2_ROUTER_ADDRESSES } f
 
 export const CHAIN_IDS_TO_NAMES = {
   [ChainId.MAINNET]: 'mainnet',
+  [ChainId.NOVA]: 'nova',
   [ChainId.GOERLI]: 'goerli',
   [ChainId.SEPOLIA]: 'sepolia',
   [ChainId.POLYGON]: 'polygon',
@@ -92,6 +93,7 @@ export const TESTNET_CHAIN_IDS = [
  */
 export const L1_CHAIN_IDS = [
   ChainId.MAINNET,
+  ChainId.NOVA,
   ChainId.GOERLI,
   ChainId.SEPOLIA,
   ChainId.POLYGON,
@@ -127,6 +129,7 @@ export type SupportedL2ChainId = (typeof L2_CHAIN_IDS)[number]
 export function getChainPriority(chainId: ChainId): number {
   switch (chainId) {
     case ChainId.MAINNET:
+    case ChainId.NOVA:
     case ChainId.GOERLI:
     case ChainId.SEPOLIA:
       return 0

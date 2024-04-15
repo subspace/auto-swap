@@ -1,0 +1,24 @@
+[submodule "submodules/sdk-core"]
+	path = submodules/sdk-core
+	url = https://github.com/subspace/uniswap-sdk-core.git
+[submodule "submodules/smart-order-router"]
+	path = submodules/smart-order-router
+	url = https://github.com/subspace/uniswap-smart-order-router.git
+[submodule "submodules/v2-core"]
+	path = submodules/v2-core
+	url = https://github.com/Uniswap/v2-core.git
+[submodule "submodules/v2-periphery"]
+	path = submodules/v2-periphery
+	url = https://github.com/Uniswap/v2-periphery.git
+[submodule "submodules/v2-subgraph"]
+	path = submodules/v2-subgraph
+	url = https://github.com/Uniswap/v2-subgraph.git
+[submodule "submodules/v3-core"]
+	path = submodules/v3-core
+	url = https://github.com/Uniswap/v3-core.git
+[submodule "submodules/v3-periphery"]
+	path = submodules/v3-periphery
+	url = https://github.com/Uniswap/v3-periphery.git
+[submodule "submodules/v3-subgraph"]
+	path = submodules/v3-subgraph
+	url = https://github.com/Uniswap/v3-subgraph.git
