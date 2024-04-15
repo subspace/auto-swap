@@ -43,6 +43,12 @@ export const PUBLIC_RPC_URLS: Record<SupportedInterfaceChain, string[]> = {
     // "Fallback" URLs
     'https://rpc.ankr.com/eth_goerli',
   ],
+  [ChainId.NOVA]: [
+    // "Safe" URLs
+    'https://nova-0.gemini-3h.subspace.network/ws',
+    // "Fallback" URLs
+    'https://nova-1.gemini-3h.subspace.network/ws',
+  ],
   [ChainId.SEPOLIA]: [
     // "Safe" URLs
     'https://rpc.sepolia.dev/',
@@ -140,6 +146,7 @@ export const PUBLIC_RPC_URLS: Record<SupportedInterfaceChain, string[]> = {
  */
 export const APP_RPC_URLS: Record<SupportedInterfaceChain, string[]> = {
   [ChainId.MAINNET]: [`https://mainnet.infura.io/v3/${INFURA_KEY}`, QUICKNODE_MAINNET_RPC_URL],
+  [ChainId.NOVA]: [`https://nova-0.gemini-3h.subspace.network/ws`],
   [ChainId.GOERLI]: [`https://goerli.infura.io/v3/${INFURA_KEY}`],
   [ChainId.SEPOLIA]: [`https://sepolia.infura.io/v3/${INFURA_KEY}`],
   [ChainId.OPTIMISM]: [`https://optimism-mainnet.infura.io/v3/${INFURA_KEY}`],
@@ -158,6 +165,7 @@ export const APP_RPC_URLS: Record<SupportedInterfaceChain, string[]> = {
 
 export const INFURA_PREFIX_TO_CHAIN_ID: { [prefix: string]: ChainId } = {
   mainnet: ChainId.MAINNET,
+  nova: ChainId.NOVA,
   goerli: ChainId.GOERLI,
   sepolia: ChainId.SEPOLIA,
   'optimism-mainnet': ChainId.OPTIMISM,

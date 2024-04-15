@@ -85,6 +85,15 @@ const CHAIN_INFO: ChainInfoMap = {
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     color: darkTheme.chain_1,
   },
+  [ChainId.NOVA]: {
+    networkType: NetworkType.L1,
+    docs: 'https://subspace.network/',
+    explorer: 'https://nova.subspace.network/',
+    infoLink: 'https://nova.subspace.network/',
+    label: 'Nova',
+    nativeCurrency: { name: 'Auto Coin', symbol: 'ATC', decimals: 18 },
+    color: darkTheme.chain_1,
+  },
   [ChainId.GOERLI]: {
     networkType: NetworkType.L1,
     docs: 'https://docs.uniswap.org/',
