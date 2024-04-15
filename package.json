@@ -45,7 +45,7 @@
     "lfg": "yarn g:prepare && yarn mobile env:local:download && yarn stretch env:local:download && yarn g:build && yarn mobile pod && yarn mobile ios",
     "mobile": "yarn workspace @uniswap/mobile",
     "local:check": "./scripts/local-version-check.sh",
-    "postinstall": "husky install && yarn g:prepare",
+    "postinstall": "yarn g:prepare",
     "stretch": "yarn workspace @uniswap/stretch",
     "ui:build:icons": "yarn workspace ui build:icons",
     "upgrade:tamagui": "yarn up '*tamagui*' '@tamagui/*'",
