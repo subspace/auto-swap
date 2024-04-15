@@ -12,6 +12,8 @@ export const USDC_MAINNET = new Token(
   'USD//C'
 )
 export const USDC_GOERLI = new Token(ChainId.GOERLI, '0x07865c6e87b9f70255377e024ace6630c1eaa37f', 6, 'USDC', 'USD//C')
+export const USDC_NOVA = new Token(ChainId.GOERLI, '0xA1B01E96ea2f1725bdB278a021B7D081ba7459c4', 18, 'USDC', 'USD//C')
+const USDT_NOVA = new Token(ChainId.GOERLI, '0x305C58767dEfb9aE8f47bbcFDFF3AD5d142BAeF6', 18, 'USDT', 'USD//T')
 export const USDC_SEPOLIA = new Token(
   ChainId.SEPOLIA,
   '0x6f14C02Fc1F78322cFd7d707aB90f18baD3B54f5',
@@ -271,6 +273,13 @@ export const MNW = new Token(
 
 export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } = {
   ...(WETH9 as Record<ChainId, Token>),
+  [ChainId.NOVA]: new Token(
+    ChainId.NOVA,
+    '0x205E735a2C73228fA13EeB70720C7841BDf65EDB',
+    18,
+    'WATC',
+    'Wrapped Auto Coin'
+  ),
   [ChainId.OPTIMISM]: new Token(
     ChainId.OPTIMISM,
     '0x4200000000000000000000000000000000000006',
@@ -488,6 +497,7 @@ export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in ChainId]?: s
 
 const STABLECOINS: { [chainId in ChainId]: Token[] } = {
   [ChainId.MAINNET]: [USDC_MAINNET, DAI, USDT],
+  [ChainId.NOVA]: [USDC_NOVA, USDT_NOVA],
   [ChainId.ARBITRUM_ONE]: [USDC_ARBITRUM, DAI_ARBITRUM_ONE],
   [ChainId.ARBITRUM_GOERLI]: [USDC_ARBITRUM_GOERLI],
   [ChainId.OPTIMISM]: [USDC_OPTIMISM, DAI_OPTIMISM],
